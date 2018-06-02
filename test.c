@@ -1,6 +1,11 @@
 #include <stdio.h>
 
 int main(){
-  print("hello world!\n");
+  int i = 0;
+  int sum = 0;
+  for(i=1; i<101; i++){
+    sum += i;
+  }
+  print("%d\n", sum);
   return 0
 }
